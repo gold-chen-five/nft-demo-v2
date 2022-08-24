@@ -10,7 +10,7 @@ function NFTDropPage() {
 
   return (
     <div className='flex f-screen flex-col lg:grid lg:grid-cols-10'>
-        {" Left "}
+        {/* left */}
         <div className='bg-gradient-to-br from-cyan-800 to-rose-500 flex flex-col items-center justify-center py-2 lg:min-h-screen lg:col-span-4'>
             <div className='bg-gradient-to-br from-yellow-400 to-purple-600 p-2 rounded-xl'>
                 <img className="w-96 h-auto rounded-xl object-cover lg:w-72" src="/image/cryptopunk-logo.png" alt="" />
@@ -23,9 +23,9 @@ function NFTDropPage() {
             </div>
         </div>
 
-        {" Right "}
+        {/* Right */}
         <div className='flex flex-1 flex-col p-12 lg:col-span-6'>
-            {" Header "}
+            {/* Header */}
             <header className='flex items-center justify-between'>
                 <h1 className='w-52 cursor-pointer text-xl font-extralight sm:w-80'>The 
                     <span className='font-extrabold underline decoration-pink-600/50'> Phalanity </span> 
@@ -35,14 +35,14 @@ function NFTDropPage() {
             <hr className='my-2 border'/>
             { address && <p className='text-center text-sm text-rose-400'>Yoo're logged in with wallet {address.substring(0,5)}...{address.substring(address.length - 5)}</p>}
 
-            {" Content "}
+            {/* Content */}
             <div className='mt-10 flex flex-1 flex-col items-center space-y-6 text-center mb-4 lg:space-y-0 lg:justify-center '>
                 <img src="/image/punkhead.png" alt="" className='w-80 h-auto object-cover pb-10'/>
                 <h1 className='text-3xl font-bold lg:text-5xl lg:font-extrabold'>The Phalanity NFT Drop</h1>
                 <p className='pt-2 text-xl text-green-500'>13 / 21 NFT'S claimed</p>
             </div>
 
-            {" Mint Button "}
+            {/* Mint button  */}
             <button className='h-14 w-full bg-red-500 text-white rounded-full '>Mint NFT (0.01 ETH)</button>
         </div>
     </div>
