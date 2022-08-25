@@ -52,6 +52,7 @@ export const getServerSideProps: GetServerSideProps = async () => {
     title,
     address,
     nftCollectionName,
+    description,
     mainImage {
       asset
     },
